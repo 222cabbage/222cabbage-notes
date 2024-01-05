@@ -1,0 +1,23 @@
+# 忽略日志目录
+logs
+# 忽略所有.log文件
+*.log
+# 忽略npm-debug.log及后面带有时间戳类的文件
+npm-debug.log*
+# 忽略node_modules
+node_modules
+# 忽略操作系统产生的临时文件
+*.swp
+# 忽略苹果电脑产生的临时文件
+.DS_Store
+# 忽略vscode产生的临时文件
+.idea/
+# 代码构建目录
+build/
+# vscode自动生成的配置文件
+*.vscode
+
+#.gitignore规则如下：
+# /node_modules  /代表根目录
+# node_modules/**/index.js **表示任意目录，表示忽略node_modules下面的所有index.js文件
+# !node_modules/index.js   !表示忽略index.js不包括node_modules直系下面的index.js文件
