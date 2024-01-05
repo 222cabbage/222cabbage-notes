@@ -1,18 +1,3 @@
-/*
- * @Auther: qinzhenhao
- * @Date: 2023-12-08 14:41:54
- * @LastEditors: qinzhenhao
- * @LastEditTime: 2024-01-04 17:15:28
- * @Description: 
- */
-/*
- * @Auther: qinzhenhao
- * @Date: 2023-12-08 14:41:54
- * @LastEditors: qinzhenhao
- * @LastEditTime: 2023-12-08 14:55:23
- * @Description: 
- */
-
 import { defineConfig } from "vite";
 
 export default defineConfig({
